@@ -13,3 +13,7 @@ The array of questions look similar to this
 var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?", 
                     choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"], 
                     correctAnswer:0}];
+
+Main tasks which i need to implement:
+ - client side validation (to make sure that user answers each question before proceeding to the next question);
+ - add a "Back" button to allow user to go back and change answer. The user can go back up to the first question.
