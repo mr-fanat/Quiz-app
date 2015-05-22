@@ -1,5 +1,4 @@
 # Quiz-app
-Start using GitHub
 
 A JavaScript quiz web application (also used HTML and CSS) that will function as follows:
 -It has a radio button choices and it show how much questions we have at all, and position of current question;
@@ -15,5 +14,13 @@ var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?",
                     correctAnswer:0}];
 
 Main tasks which i need to implement:
+ - Use jQuery to add animation. (fade out/fade in the next question) (maybe refactor app core code using jQuery);
+ - Store the quiz questions in an external JSON file;
+ - Test app on IE.
+ - Add user authentification. Allow users to log in, and save their login credentials to local storage (HTML5 browser storage);
+ - Use cookies to remember the User? and show a "Welcome, "First Name" message when the User returns to the quiz.
+
+
+Tasks and features wich already was implemented:
  - client side validation (to make sure that user answers each question before proceeding to the next question);
- - add a "Back" button to allow user to go back and change answer. The user can go back up to the first question.
+ - add a "Back" button to allow user to go back and change answer. The user can go back up to the first question. For the questions that the user has answered already, the radio button will be selected. So, the user is not forced to answed the questions again, which he has completed.
